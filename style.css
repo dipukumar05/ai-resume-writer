@@ -23,3 +23,20 @@ padding:20px;
 width:60%;
 margin:auto;
 }
+#resume{
+width:600px;
+margin:auto;
+background:white;
+padding:30px;
+margin-top:20px;
+text-align:left;
+}
+
+#resume h2{
+margin-bottom:5px;
+}
+
+#resume h3{
+border-bottom:1px solid #ddd;
+padding-bottom:5px;
+}
