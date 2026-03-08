@@ -1,0 +1,25 @@
+body{
+font-family: Arial;
+text-align:center;
+background:#f4f4f4;
+}
+
+input{
+display:block;
+margin:10px auto;
+padding:10px;
+}
+
+button{
+padding:10px;
+background:green;
+color:white;
+border:none;
+}
+
+#result{
+background:white;
+padding:20px;
+width:60%;
+margin:auto;
+}
