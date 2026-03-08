@@ -17,3 +17,16 @@ ${skills}
 document.getElementById("result").innerText=resume;
 
 }
+function downloadPDF() {
+
+const { jsPDF } = window.jspdf;
+
+let doc = new jsPDF();
+
+let resume = document.getElementById("result").innerText;
+
+doc.text(resume, 10, 10);
+
+doc.save("resume.pdf");
+
+}
