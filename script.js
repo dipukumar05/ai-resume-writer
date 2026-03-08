@@ -4,29 +4,16 @@ let name=document.getElementById("name").value;
 let education=document.getElementById("education").value;
 let skills=document.getElementById("skills").value;
 
-let resume=`
-Name: ${name}
+document.getElementById("rname").innerText=name;
 
-Education:
-${education}
+document.getElementById("contact").innerText=
+"Bihar, India | +91 | email@example.com";
 
-Skills:
-${skills}
-`;
+document.getElementById("summary").innerText=
+"Detail-oriented and reliable Data Entry Operator with strong typing skills and computer knowledge.";
 
-document.getElementById("result").innerText=resume;
+document.getElementById("reducation").innerText=education;
 
-}
-function downloadPDF() {
-
-const { jsPDF } = window.jspdf;
-
-let doc = new jsPDF();
-
-let resume = document.getElementById("result").innerText;
-
-doc.text(resume, 10, 10);
-
-doc.save("resume.pdf");
+document.getElementById("rskills").innerText=skills;
 
 }
